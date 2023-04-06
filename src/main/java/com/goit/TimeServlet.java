@@ -26,7 +26,7 @@ public class TimeServlet extends HttpServlet {
         engine = new TemplateEngine();
         FileTemplateResolver resolver = new FileTemplateResolver();
         resolver.setSuffix(".html");
-        resolver.setPrefix("templates/");
+        //resolver.setPrefix("templates/");
         resolver.setTemplateMode("HTML5");
         resolver.setCharacterEncoding("UTF-8");
         resolver.setOrder(engine.getTemplateResolvers().size());
