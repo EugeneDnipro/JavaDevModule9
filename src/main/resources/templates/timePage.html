@@ -9,7 +9,7 @@
 </head>
 <body>
 <p><span style="color: #0000ff; "><b>Час у вибраному часовому поясі:</b></span></p>
-
-<h2><strong style="color: rgb(0, 0, 255);"><span style="color:#FFD700;">th:text="${queryParams.get('timeString')}"</span></strong></h2>
+<p th:text = "${queryParams.get('timeString')}"/p>
+<h2><strong style="color: rgb(0, 0, 255);"><span style="color:#FFD700;">th:text = "${queryParams.get('timeString')}"</span></strong></h2>
 </body>
 </html>
